@@ -1,0 +1,5 @@
+---
+zh-CN:
+  decorators:
+    article_decorator:
+      tagged_with: "用 %{cached_tag_list} 标记."

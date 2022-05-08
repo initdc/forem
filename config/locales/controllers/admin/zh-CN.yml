@@ -1,0 +1,155 @@
+---
+zh-CN:
+  admin:
+    articles_controller:
+      saved: 文章已保存!
+      pinned: 文章已钉上!
+    badge_achievements_controller:
+      deleted: 徽章成就已被删除!
+      rewarded: 徽章正在被奖励. 任务将很快完成.
+      congrats: 祝贺你!
+      award: 请选择一个徽章进行奖励
+      wrong: 出了点差错.
+    badges_controller:
+      created: 徽章已被创建!
+      updated: 徽章已被更新!
+    broadcasts_controller:
+      created: 公告已被创建!
+      deleted: 公告已被删除!
+      updated: 公告已被更新!
+      wrong: 删除公告时出现了一些问题.
+    consumer_apps_controller:
+      created: "%{app} 已被创建!"
+      deleted: "%{app} 已被删除!"
+      updated: "%{app} 已被更新!"
+      wrong: 删除 %{app} 时出现了一些问题.
+    display_ads_controller:
+      created: Display Ad 已被创建!
+      deleted: Display Ad 已被删除!
+      updated: Display Ad 已被更新!
+      wrong: Something went wrong with deleting the Display Ad.
+    gdpr_delete_requests_controller:
+      deleted: Successfully marked as deleted 
+    extensions_controller:
+      update_success: Extensions have been updated.
+    html_variants_controller:
+      fork: "%{name} FORK-%{rand}"
+      created: HTML Variant 已被创建!
+      deleted: HTML Variant 已被删除!
+      updated: HTML Variant 已被更新!
+      wrong: Something went wrong with deleting the HTML Variant.
+    invitations_controller:
+      duplicate: 'Invitation was not sent. There is already a registered user with the email: %{email}'
+      create_success: The invite has been sent to the user's email.
+      destroy_success: Invite cancelled for %{email}.
+      resend_success: Invite resent to %{email}.
+    listing_categories_controller:
+      created: Listing Category 已被创建!
+      updated: Listing Category 已被更新!
+      deleted: Listing Category 已被删除!
+    listings_controller:
+      updated: Listing updated successfully
+      destroyed: "'%{title}' was destroyed successfully"
+      no_credit: Not enough available credits
+    mods_controller:
+      trusted: "%{username} now has a Trusted role!"
+    navigation_links_controller:
+      deleted: Navigation Link %{link} deleted
+      created: 'Successfully created navigation link: %{link}'
+      updated: 'Successfully updated navigation link: %{link}'
+    organization_memberships_controller:
+      not_exist: 'Organization #%{org_id} does not exist.'
+      wrong: Something went wrong with removing the user from %{org}
+      added: User was successfully added to %{org}
+      removed: User was successfully removed from %{org}
+      updated: User was successfully updated to %{type}
+    organizations_controller:
+      credit_updated: Successfully updated credits
+    pages_controller:
+      updated: Page has been successfully updated.
+      created: Page has been successfully created.
+      deleted: Page has been successfully deleted.
+      code_of_conduct:
+        title: Code of Conduct
+        description: A page that describes how to behave on this platform
+      privacy_policy:
+        title: Privacy Policy
+        description: A page that describes the privacy policy
+      terms_of_use:
+        title: Terms of Use
+        description: A page that describes the terms of use for the application
+    podcasts_controller:
+      new_owner_added: New owner added!
+      no_such_user: No such user
+      scheduled: "Podcast's episodes fetching was scheduled (%{title}, #%{id})"
+      updated: Podcast updated
+    profile_field_groups_controller:
+      deleted: Group %{group} deleted
+      updated: Group %{group} updated
+      created: 'Successfully created group: %{group}'
+    profile_fields_controller:
+      created: Profile field %{field} created
+      deleted: Profile field %{field} deleted
+      updated: Profile field %{field} updated
+    response_templates_controller:
+      saved: 'Response Template: "%{title}" saved successfully.'
+      updated: The response template "%{title}" was updated.
+      deleted: The response template "%{title}" was deleted.
+    secrets_controller:
+      not_in_vault: Not In Vault
+      updated: Secret %{key} was successfully updated in Vault.
+      value: "%{first8}******"
+    settings_controller:
+      confirmation: My username is @%{username} and this action is 100% safe and appropriate.
+    spaces_controller:
+      update_success: Space 已被更新.
+    sponsorships_controller:
+      created: Sponsorship 已被创建!
+      not_destroyed: Sponsorship was not destroyed
+      updated: Sponsorship was successfully updated
+      destroyed: Sponsorship was successfully destroyed
+    tags:
+      moderators_controller:
+        not_found: "User ID #%{user_id} was not found"
+        not_found_or: 'User ID #%{user_id} was not found, or their account has errors: %{errors}'
+        removed: "@%{username} - ID #%{user_id} was removed as a tag moderator."
+        added: "%{username} was added as a tag moderator!"
+    tags_controller:
+      created: "%{tag_name} 已被创建!"
+      updated: "%{tag_name} tag successfully updated!"
+      update_fail: 'The tag update failed: %{errors}'
+    tools_controller:
+      article_busted: 'Article #%{article} was successfully busted'
+      user_busted: 'User #%{user} was successfully busted'
+      link_busted: "%{link} was successfully busted"
+    users_controller:
+      exported: Data exported to the %{receiver}. The job will complete momentarily.
+      email_fail: Email failed to send!
+      email_sent: Email sent!
+      verify_sent: Verification email sent!
+      full_delete_html: "@%{user} (email: %{email}, user_id: %{id}) has been fully deleted. If this is a GDPR delete, delete them from Mailchimp & Google Analytics and confirm on %{the_page}."
+      no_email: no email
+      parameter_missing: Both subject and body are required!
+      role_removed: 'Role: %{role} has been successfully removed from the user!'
+      identity_removed: The %{provider} identity was successfully deleted and backed up.
+      the_page: the page
+      banished: This user is being banished in the background. The job will complete soon.
+      unlocked: Unlocked User account!
+      unpublished: Posts are being unpublished in the background. The job will complete soon.
+      updated: User 已被更新
+      credits_added: Credits have been added!
+      credits_removed: Credits have been removed.
+    welcome_controller:
+      thread_content: |
+        ---
+        title: 欢迎版块 - v0
+        published: false
+        description: 向社区介绍你自己!
+        tags: welcome
+        ---
+
+        你好啊! 欢迎来到 %{community}!
+
+        ![WELCOME TO THE INTERNET](https://slack-imgs.com/?c=1&url=http%3A%2F%2Fmedia0.giphy.com%2Fmedia%2FzhbrTTpmSCYog%2Fgiphy-downsized.gif)
+
+        留下评论以向社区介绍你自己!✌️

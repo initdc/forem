@@ -1,0 +1,17 @@
+---
+zh-CN:
+  validators:
+    bytesize_validator:
+      non_negative: ":最大必须是一个非负的整数"
+    color_contrast_validator:
+      must_be_darker: 必须是深色的，以便于访问
+    emoji_only_validator:
+      invalid_emoji: 含有非表情符号的字符或无效的表情符号
+    existing_published_article_id_validator:
+      default: 必须是一个有效的已发布的文章标识符
+    profile_validator:
+      too_long: 太长
+    unique_cross_model_slug_validator:
+      is_taken: 已注册
+    valid_domain_csv_validator:
+      invalid_list_format: 必须是一个用逗号分隔的有效域名列表

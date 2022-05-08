@@ -1,0 +1,90 @@
+---
+zh-CN:
+  views:
+    users:
+      meta:
+        og:
+          title: "%{user} — %{community} 简介"
+      comments:
+        all:
+          one: 全部 %{count} 个评论
+          other: 全部 %{count} 个评论
+        last:
+          one: 最后 %{count} 个评论
+          other: 最后 %{count} 个评论
+        recent: 最近评论
+        view: 查看所有活动
+        view_all:
+          one: 查看所有 %{count} 个评论
+          other: 查看所有 %{count} 个评论
+        view_last:
+          one: 查看最后 1 个评论
+          other: 查看最后 %{count} 个评论
+      github:
+        heading: GitHub 仓库
+        fork: Fork
+        stars:
+          one: 1 个收藏
+          other: "%{count} 个收藏"
+      pin_icon: Pin
+      pinned: 订上
+      profile_fields:
+        bio:
+          label: 个人经历
+          placeholder: 一个简短的个人经历...
+        display_email_on_profile: 在简介显示邮箱
+        location:
+          label: 位置
+          placeholder: 北京, 中国
+        website:
+          label: 网站地址
+          placeholder: https://yoursite.com
+        education: 教育经历
+        currently_learning: 正在学习
+        currently_hacking_on: 正在 hacking
+        available_for: 可用
+        skills_languages: 技能/语言
+        work: 工作
+      side:
+        comment:
+          icon: Comment
+          text:
+            one: 写了 1 个评论
+            other: 写了 %{count} 个评论
+        org: 组织
+        post:
+          icon: Post
+          text:
+            one: 发表了 1 篇帖子
+            other: 发表了 %{count} 篇帖子
+        tag:
+          icon: Tag
+          text:
+            one: 关注了 1 个标签
+            other: 关注了 %{count} 个标签
+      signout:
+        meta:
+          title: 确认登出 - %{community}
+        heading: 你确定要登出吗?
+        'yes': 是, 登出
+      block: 屏蔽 @%{user}
+      details: "%{user} 简介详情"
+      dropdown: 用户动作
+      email_icon: 邮件地址
+      empty: 404 bio 未找到
+      flag: 标记 @%{user}
+      follow: 关注
+      joined:
+        icon: Joined
+        text_html: "加入于\_%{date}"
+      location_icon: Location
+      logo: "%{user} profile picture"
+      more: 更多关于 @%{user}
+      send_pm:
+        code: 行为准则
+        notice_html: 所有的私人互动 <b>必须</b> 遵循 %{code}.
+        placeholder: 在这输入您的消息...
+        submit: 发送
+      social: "%{service} 网站"
+      unflag: 取消标记 @%{user}
+      website: 个人网站

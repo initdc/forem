@@ -1,0 +1,64 @@
+---
+zh-CN:
+  devise:
+    confirmations:
+      confirmed: 您的邮件地址已成功确认.
+      send_instructions: 您将于几分钟内接收到一封指引您如何确认邮件地址的邮件.
+      send_paranoid_instructions: 如果您的邮件地址存在于数据库中, 您将于几分钟内接收到一封指引您如何确认邮件地址的邮件.
+    failure:
+      already_authenticated: 您已登陆.
+      inactive: 您的帐户尚未激活.
+      invalid: 无法登陆.
+      last_attempt: 在您的帐户被锁定之前，您还有一次机会尝试。
+      locked: 无法登陆.
+      not_found_in_database: 无法登陆.
+      timeout: 您的会话已过期. 请登入以继续.
+      unauthenticated: 您需要登入或注册以继续.
+      unconfirmed: 您需要确认邮件地址以继续.
+    mailer:
+      confirmation_instructions:
+        subject: 确认指引
+      email_changed:
+        subject: 更改邮箱
+      password_change:
+        subject: 更改密码
+      reset_password_instructions:
+        subject: 重设密码指引
+      unlock_instructions:
+        subject: 解除锁定指引
+    omniauth_callbacks:
+      failure: 从 %{kind} 因 "%{reason}" 未能认证为您.
+      success: 从 %{kind} 帐户成功通过认证.
+    passwords:
+      no_token: 您不能访问此页面, 它应由重设密码邮件指引. 如您确实, 请确保访问完整的地址.
+      send_instructions: 您将于几分钟内接受到一封指引您如何重设密码的邮件.
+      send_paranoid_instructions: 如果您的邮件地址存在于数据库中, 您将于几分钟内在您的邮件地址接收到密码恢复链接.
+      updated:  您的密码已成功更新. 您现已登陆.
+      updated_not_active: 您的密码已成功更新.
+    registrations:
+      destroyed: 再见! 您的帐户已成功取消. 我们希望不久后能再见到您.
+      signed_up: 欢迎! 您已成功注册.
+      signed_up_but_inactive: 您已成功注册. 但是, 因您的帐户尚未激活我们不能使您登陆.
+      signed_up_but_locked: 您已成功注册. 但是, 因您的帐户已被锁定我们不能使您登陆.
+      signed_up_but_unconfirmed: 一个包含确认链接的信息已发送您的邮件地址. 请跟随链接以激活您的帐户.
+      update_needs_confirmation: 您成功地更新了帐户, 但我们需要验证您新的邮件地址. 请查看邮件并跟随链接以确认您新的邮件地址.
+      updated: 您的帐户已成功更新.
+      updated_but_not_signed_in: 您的帐户已成功更新, 但自您的密码更改, 您需要再次登陆.
+    sessions:
+      already_signed_out: 成功登出.
+      signed_in: 成功登陆.
+      signed_out: 成功登出.
+    unlocks:
+      send_instructions: 您将于几分钟内接收到一封指引您如何解除帐户锁定的邮件.
+      send_paranoid_instructions: 如果您的帐户存在, 您将于几分钟内接收到一封指引您如何解除帐户锁定的邮件.
+      unlocked: 您的帐户已成功解除锁定. 请登陆以继续.
+  errors:
+    messages:
+      already_confirmed: 已确认, 请登陆重试
+      confirmation_period_expired: 需要和 %{period} 一起确认, 请发送新的请求
+      expired: 已过期, 请发送新的请求
+      not_found: 未找到
+      not_locked: 未锁定
+      not_saved:
+        one: '1 个错误禁止此 %{resource} 被保存:'
+        other: '%{count} 个错误禁止此 %{resource} 被保存:'

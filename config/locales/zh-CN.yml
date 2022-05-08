@@ -1,0 +1,185 @@
+---
+zh-CN:
+  contact_prompts:
+    if_any_questions_html: <a href="/contact">联系我们</a> 如果您有任何问题.
+    if_continued_trouble_html: <a href="/contact">联系我们</a> 如果您仍遇到麻烦.
+    if_we_can_help_html: <a href="/contact">联系我们</a> 如果有任何我们能帮助的.
+  core:
+    add_comment: 添加评论
+    beta: beta
+    comment: 评论
+    copy_link: 复制链接
+    edit_profile: 编辑简介
+    follow: 关注
+    follow_back: 互相关注
+    following: 关注中
+    like: 喜爱
+    loading: 加载中...
+    reaction: 回复
+    report_abuse: 报告滥用
+    search: 搜索
+    success_settings: 成功更新设定.
+  datetime:
+    distance_in_words_ago: # https://github.com/openstreetmap/openstreetmap-website/issues/2255
+      about_x_hours:
+        one: 大约 1 小时前
+        other: 大约 %{count} 小时前
+      about_x_months:
+        one: 大约 1 个月前
+        other: 大约 %{count} 个月前
+      about_x_years:
+        one: 大约 1 年前
+        other: 大约 %{count} 年前
+      almost_x_years:
+        one: 接近 1 年前
+        other: 接近 %{count} 年前
+      half_a_minute: 半分钟前
+      less_than_x_seconds:
+        one: 少于 1 秒种前
+        other: 少于 %{count} 秒种前
+      less_than_x_minutes:
+        one: 少于 1 分种前
+        other: 少于 %{count} 分种前
+      over_x_years:
+        one: 超过 1 年前
+        other: 超过 %{count} 年前
+      x_seconds:
+        one: 1 秒种前
+        other: '%{count} 秒种前'
+      x_minutes:
+        one: 1 分种前
+        other: '%{count} 分种前'
+      x_days:
+        one: 1 天前
+        other: '%{count} 天前'
+      x_months:
+        one: 1 个月前
+        other: '%{count} 个月前'
+      x_years:
+        one: 1 年前
+        other: '%{count} 年前'
+    expired_ago:
+      about_x_hours:
+        one: 大约 1 小时前已过期
+        other: 大约 %{count} 小时前已过期
+      about_x_months:
+        one: 大约 1 个月前已过期
+        other: 大约 %{count} 个月前已过期
+      about_x_years:
+        one: 大约 1 年前已过期
+        other: 大约 %{count} 年前已过期
+      almost_x_years:
+        one: 接近 1 年前已过期
+        other: 接近 %{count} 年前已过期
+      half_a_minute: 半分钟前已过期
+      less_than_x_seconds:
+        one: 少于 1 秒种前已过期
+        other: 少于 %{count} 秒种前已过期
+      less_than_x_minutes:
+        one: 少于 1 分钟 前已过期
+        other: 少于 %{count} 分钟前已过期
+      over_x_years:
+        one: 超过 1 年前已过期
+        other: 超过 %{count} 年前已过期
+      x_seconds:
+        one: 1 秒前已过期
+        other: '%{count} 秒前已过期'
+      x_minutes:
+        one: 1 分钟前已过期
+        other: '%{count} 分钟前已过期'
+      x_days:
+        one: 1 天前已过期
+        other: '%{count} 天前已过期'
+      x_months:
+        one: 1 个月前已过期
+        other: '%{count} 个月前已过期'
+      x_years:
+        one: 1 年前已过期
+        other: '%{count} 年前已过期'
+    expires_in:
+      about_x_hours:
+        one: 将大约 1 小时内过期
+        other: 将大约 %{count} 小时内过期
+      about_x_months:
+        one: 将大约 1 个月内过期
+        other: 将大约 %{count} 个月内过期
+      about_x_years:
+        one: 将大约 1 年内过期
+        other: 将大约 %{count} 年内过期
+      almost_x_years:
+        one: 将接近 1 年内过期
+        other: 将接近 %{count} 年内过期
+      half_a_minute: 将半分钟内过期
+      less_than_x_seconds:
+        one: 将少于 1 秒内过期
+        other: 将少于 %{count} 秒内过期
+      less_than_x_minutes:
+        one: 将少于 1 分钟内过期
+        other: 将少于 %{count} 分钟内过期
+      over_x_years:
+        one: 将超过 1 年内过期
+        other: 将超过 %{count} 年内过期
+      x_seconds:
+        one: 将 1 秒内过期
+        other: 将 %{count} 秒内过期
+      x_minutes:
+        one: 将 1 分钟内过期
+        other: 将 %{count} 分钟内过期
+      x_days:
+        one: 将 1 天内过期
+        other: 将 %{count} 天内过期
+      x_months:
+        one: 将 1 个月内过期
+        other: 将 %{count} 个月内过期
+      x_years:
+        one: 将 1 年内过期
+        other: 将 %{count} 年内过期
+  errors:
+    messages:
+      accepted: 须被接受
+      bad_protocol: 必须以 %{protocols} 开始
+      bad_uri: 非有效地址
+      blank: 不能为空隔
+      confirmation: 无法匹配 %{attribute}
+      contains_prohibited_characters: 包含非字母数字或禁止的unicode字符
+      empty: 不能为空白
+      equal_to: 必须与 %{count} 相等
+      even: 须为偶数
+      exclusion: 以被保留
+      general: '错误: %{errors}'
+      greater_than: 必须大于 %{count}
+      greater_than_or_equal_to: 必须大于或等于 %{count}
+      inclusion: 未包含在列表中
+      invalid: 无效
+      less_than: 必须小于 %{count}
+      less_than_or_equal_to: 必须小于或等于 %{count}
+      model_invalid: '验证失败: %{errors}'
+      not_a_number: 不是一个 number
+      not_an_integer: 必须为一个 integer
+      odd: 须为奇数
+      other_than: 必须是 %{count} 以外的
+      present: 须为空隔
+      required: 必须存在
+      taken: 已被注册
+      too_long:
+        one: 太长 (最长为 1 个字符)
+        other: 太长 (最长为 %{count} 个字符)
+      too_short:
+        one: 太短 (最短为 1 个字符)
+        other: 太短 (最短为 %{count} 个字符)
+      try_again_email: '发生一个错误. 请重试或发送邮件到: %{email}'
+      wrong_length:
+        one: 长度错误 (应为 1 个字符)
+        other: 长度错误 (应为 %{count} 个字符)
+  time:
+    formats:
+      comment: '%B %d, %Y'
+      github: '%b %d, %Y'
+      json: '%b %e, %Y'
+      medium: '%b %-d, %Y'
+      reddit: "%b %e '%y"
+      short: '%b %-e'
+      short_with_yy: "%b %-d '%y"
+      short_with_year: '%b %-e, %Y'
+      stackexchange: "%b %e '%y"
+      tweet: '%H:%M %p - %d %b %Y'

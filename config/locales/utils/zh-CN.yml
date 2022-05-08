@@ -1,0 +1,14 @@
+---
+zh-CN:
+  xml:
+    opensearch:
+      short_name: '%{community} 搜索'
+      description: 从 %{community} 寻找帖子.
+    user:
+      image: '%{user} profile image'
+  json:
+    author: '%{community} 活跃作者'
+  mailer:
+    adjust: 调整您的邮件设定
+    adjust_only_html: 您想接收这样的邮件吗? 调整您的邮件设定在 %{path}
+    unsubscribe: 退订
